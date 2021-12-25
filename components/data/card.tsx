@@ -5,7 +5,7 @@ import tw from 'twin.macro'
 import { Text } from '../'
 
 const CardContainer =
-  tw.div`p-4 flex gap-4 items-center ripple-bg-slate-300 dark:ripple-bg-slate-700 shadow-lg rounded-xl`
+  tw.div`p-4 flex gap-4 items-center shadow-lg rounded-xl bg-slate-300 dark:bg-slate-700`
 
 type CardIconProperties = IconProps & {
   ref?: never
@@ -37,24 +37,37 @@ type CardVariantProperties = {
   rightIcon?: IconifyIcon | string,
   iconStyles?: CSSInterpolation,
   number?: never,
-  numberStyles?: CSSInterpolation
+  numberStyles?: never,
+  children?: never
 } | {
   variant: 'number',
   leftIcon?: never,
   rightIcon?: never,
   iconStyles?: never,
   number: number,
-  numberStyles?: CSSInterpolation
+  numberStyles?: CSSInterpolation,
+  children?: never
+} | {
+  variant: 'box',
+  leftIcon?: never,
+  rightIcon?: never,
+  iconStyles?: never,
+  number?: never,
+  numberStyles?: never,
+  children?: React.ReactNode
 }
 
 type CardProperties<T extends AnyComponent> =
-  PropertiesOf<T> & CardVariantProperties & {
-    title: string,
-    titleStyles?: CSSInterpolation,
-    children?: never,
-    ref?: never,
-    as?: T
-  }
+  React.PropsWithChildren<
+    PropertiesOf<T> & CardVariantProperties & {
+      title?: string,
+      titleStyles?: CSSInterpolation,
+      ref?: never,
+      as?: T,
+      css?: CSSInterpolation,
+      withRipple?: boolean
+    }
+  >
 
 const Card = <T extends AnyComponent>({
   title,
@@ -64,18 +77,26 @@ const Card = <T extends AnyComponent>({
   iconStyles,
   number,
   numberStyles,
+  children,
+  css,
+  withRipple,
   ...rest
 }: CardProperties<T>) => (
-    <CardContainer {...rest}>
+    <CardContainer css={[withRipple && tw`ripple-bg-slate-300 dark:ripple-bg-slate-700`, css]} {...rest}>
       {leftIcon && <CardIcon icon={leftIcon} css={iconStyles} />}
       {number && <CardNumber number={number} css={numberStyles} />}
-      <Text css={[
-        tw`overflow-hidden text-lg font-bold truncate whitespace-normal md:text-2xl text-slate-900`,
-        titleStyles
-      ]}>
-        {title}
-      </Text>
+      {
+        title && (
+          <Text css={[
+            tw`overflow-hidden text-lg font-bold truncate whitespace-normal md:text-2xl text-slate-900`,
+            titleStyles
+          ]}>
+            {title}
+          </Text>
+        )
+      }
       {rightIcon && <CardIcon icon={rightIcon} css={iconStyles} />}
+      {children}
     </CardContainer>
   )
 

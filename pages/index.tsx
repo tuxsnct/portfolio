@@ -1,6 +1,6 @@
 import React from 'react'
 import { Timeline } from 'react-twitter-widgets'
-import tw from 'twin.macro'
+import tw, { css } from 'twin.macro'
 import { Avatar, Button, Card, Chip, Heading, Text } from '../components'
 import { BaseLayout } from '../layouts'
 import { description, events, links, projects, skills } from '../libraries'
@@ -8,8 +8,8 @@ import { description, events, links, projects, skills } from '../libraries'
 // eslint-disable-next-line max-lines-per-function
 const HomePage: React.FC = () => (
   <BaseLayout title="Home">
-    <div tw="w-full h-full grid grid-cols-4 grid-rows-1 p-12 gap-12 lg:(p-24 gap-24)">
-      <div tw="mb-8 col-span-full lg:(col-span-1) flex flex-col items-center">
+    <div tw="h-full grid p-8 gap-8 grid-cols-1 lg:(grid-cols-4 p-24 gap-24) box-border">
+      <div tw="mb-8 flex flex-col col-span-full lg:col-span-1 items-center">
         <div tw="mx-24 my-16 space-y-8 flex flex-col justify-center items-center">
           <Avatar
             // eslint-disable-next-line no-secrets/no-secrets
@@ -55,6 +55,7 @@ const HomePage: React.FC = () => (
                   title={project.name}
                   as="a"
                   href={project.url}
+                  withRipple
                 />
               ))
             }
@@ -70,6 +71,7 @@ const HomePage: React.FC = () => (
                   variant="number"
                   number={index + 1}
                   title={event.name}
+                  withRipple
                 />
               ))
             }
@@ -89,16 +91,19 @@ const HomePage: React.FC = () => (
         </div>
         <div tw="space-y-4">
           <Heading as="h2" id="tweets">Tweets</Heading>
-          <Timeline
-            dataSource={{
-              screenName: 'tuxsnct',
-              sourceType: 'profile'
-            }}
-            options={{
-              height: '600',
-              width: '100%'
-            }}
-          />
+          <Card variant="box" css={css`div { width: 100%; }`}>
+            <Timeline
+              dataSource={{
+                screenName: 'tuxsnct',
+                sourceType: 'profile'
+              }}
+              options={{
+                chrome: 'noheader',
+                height: '600',
+                width: '100%'
+              }}
+            />
+          </Card>
         </div>
       </main>
     </div>
