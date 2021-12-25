@@ -10,7 +10,7 @@ specifiers:
   '@fontsource/inter': 4.5.1
   '@iconify/react': 3.1.0
   '@tailwindcss/aspect-ratio': 0.3.0
-  '@tailwindcss/line-clamp': 0.2.2
+  '@tailwindcss/line-clamp': 0.3.0
   '@tailwindcss/typography': 0.4.1
   '@types/react': 17.0.38
   '@types/react-dom': 17.0.11
@@ -64,7 +64,7 @@ devDependencies:
   '@emotion/babel-plugin-jsx-pragmatic': 0.1.5_@babel+core@7.16.5
   '@emotion/serialize': 1.0.2
   '@tailwindcss/aspect-ratio': 0.3.0_tailwindcss@2.2.19
-  '@tailwindcss/line-clamp': 0.2.2_tailwindcss@2.2.19
+  '@tailwindcss/line-clamp': 0.3.0_tailwindcss@2.2.19
   '@tailwindcss/typography': 0.4.1_tailwindcss@2.2.19
   '@types/react': 17.0.38
   '@types/react-dom': 17.0.11
@@ -1926,10 +1926,10 @@ packages:
       tailwindcss: 2.2.19_16a290f6d0e3717bf6d2667234aebd30
     dev: true
 
-  /@tailwindcss/line-clamp/0.2.2_tailwindcss@2.2.19:
-    resolution: {integrity: sha512-NgA4Ds+/eCiO+6O3SooRsfJ8m7M2+QvNvHwOjBQq7FIYoWwAV4I4Wu4fjHeuO9Yi6p47ceHUKEGGEBh0ozQodg==}
+  /@tailwindcss/line-clamp/0.3.0_tailwindcss@2.2.19:
+    resolution: {integrity: sha512-ffDDclrqr3sy8cpChCozedDUAN8enxqAiWeH8d4dGQ2hcXlxf51+7KleveFi/n/TxEuRVApoL7hICeDOdYPKpg==}
     peerDependencies:
-      tailwindcss: '>=2.0.0 || >=3.0.0-alpha.1'
+      tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
     dependencies:
       tailwindcss: 2.2.19_16a290f6d0e3717bf6d2667234aebd30
     dev: true
