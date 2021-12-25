@@ -17,6 +17,7 @@
     "build": "vite build",
     "dev": "vite",
     "start": "vite preview",
+    "start:https": "serve dist",
     "lint": "eslint './**/*.{js,jsx,ts,tsx,json,yaml,yml,toml}'",
     "lint:fix": "npm run lint --fix",
     "type": "tsc --noEmit",
