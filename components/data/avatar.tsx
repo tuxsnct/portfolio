@@ -5,7 +5,8 @@ import { Image } from '../'
 type AvatarProperties = React.ComponentProps<typeof Image> & {
   src: string,
   width: number,
-  height: number
+  height: number,
+  alt: string
 }
 
 const Avatar: React.FC<AvatarProperties> = (properties) => (

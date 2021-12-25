@@ -15,6 +15,7 @@ const HomePage: React.FC = () => (
             src="https://www.gravatar.com/avatar/698994bad3112f6a9cfa8e51a8a6f689?s=200"
             width={200}
             height={200}
+            alt="tuxsnct"
             css={tw`overflow-hidden shadow-lg min-w-min`}
           />
           <Heading as="h1">tuxsnct</Heading>
