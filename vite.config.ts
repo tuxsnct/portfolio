@@ -26,6 +26,7 @@ const config: UserConfig = {
     }),
     vitePwaPlugin({
       manifest: {
+        display: 'standalone',
         icons: [
           {
             sizes: '192x192',
@@ -47,6 +48,7 @@ const config: UserConfig = {
         ],
         name: 'tuxsnct\'s Website',
         short_name: 'tuxsnct',
+        start_url: '/',
         theme_color: '#f59e9e'
       },
       registerType: 'autoUpdate',
