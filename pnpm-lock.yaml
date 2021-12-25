@@ -30,7 +30,6 @@ specifiers:
   preact: 10.6.4
   react: npm:@preact/compat@17.0.3
   react-dom: npm:@preact/compat@17.0.3
-  react-google-recaptcha-v3: 1.9.7
   react-helmet: 6.1.0
   rimraf: 3.0.2
   snarkdown: 2.0.0
@@ -52,7 +51,6 @@ dependencies:
   preact: 10.6.4
   react: /@preact/compat/17.0.3_preact@10.6.4
   react-dom: /@preact/compat/17.0.3_preact@10.6.4
-  react-google-recaptcha-v3: 1.9.7_9bfab5d69556db861da30525f2351767
   react-helmet: 6.1.0_@preact+compat@17.0.3
   snarkdown: 2.0.0
   unistore: 3.5.2_e666cc8912b64376a265187547984e75
@@ -6364,17 +6362,6 @@ packages:
 
   /react-fast-compare/3.2.0:
     resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
-    dev: false
-
-  /react-google-recaptcha-v3/1.9.7_9bfab5d69556db861da30525f2351767:
-    resolution: {integrity: sha512-LgHTuPUE86jGOtmMYMUWEYux8n7M2ZNj5GHct//DlXWZGyLIgFfLbvxA3UlgrG+tSu2pgw2mqXtYdPxaldqhWQ==}
-    peerDependencies:
-      react: ^17.0
-      react-dom: ^17.0
-    dependencies:
-      hoist-non-react-statics: 3.3.2
-      react: /@preact/compat/17.0.3_preact@10.6.4
-      react-dom: /@preact/compat/17.0.3_preact@10.6.4
     dev: false
 
   /react-helmet/6.1.0_@preact+compat@17.0.3:

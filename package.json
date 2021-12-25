@@ -31,7 +31,6 @@
     "preact": "10.6.4",
     "react": "npm:@preact/compat@17.0.3",
     "react-dom": "npm:@preact/compat@17.0.3",
-    "react-google-recaptcha-v3": "1.9.7",
     "react-helmet": "6.1.0",
     "snarkdown": "2.0.0",
     "unistore": "3.5.2",
