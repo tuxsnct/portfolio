@@ -10,6 +10,8 @@ const NotFoundPage: React.FC = () => (
         <Avatar
         // eslint-disable-next-line no-secrets/no-secrets
           src="https://www.gravatar.com/avatar/698994bad3112f6a9cfa8e51a8a6f689?s=240"
+          width={240}
+          height={240}
           css={tw`overflow-hidden shadow-lg min-w-min animate-spin-slow`}
         />
         <Heading as="h2" tw="whitespace-nowrap">404, Not Found.</Heading>

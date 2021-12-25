@@ -1,6 +1,5 @@
 import React from 'react'
-import { Timeline } from 'react-twitter-widgets'
-import tw, { css } from 'twin.macro'
+import tw from 'twin.macro'
 import { Avatar, Button, Card, Chip, Heading, Text } from '../components'
 import { BaseLayout } from '../layouts'
 import { description, events, links, projects, skills } from '../libraries'
@@ -14,6 +13,8 @@ const HomePage: React.FC = () => (
           <Avatar
             // eslint-disable-next-line no-secrets/no-secrets
             src="https://www.gravatar.com/avatar/698994bad3112f6a9cfa8e51a8a6f689?s=200"
+            width={200}
+            height={200}
             css={tw`overflow-hidden shadow-lg min-w-min`}
           />
           <Heading as="h1">tuxsnct</Heading>
@@ -88,22 +89,6 @@ const HomePage: React.FC = () => (
               ))
             }
           </div>
-        </div>
-        <div tw="space-y-4">
-          <Heading as="h2" id="tweets">Tweets</Heading>
-          <Card variant="box" css={css`div { width: 100%; }`}>
-            <Timeline
-              dataSource={{
-                screenName: 'tuxsnct',
-                sourceType: 'profile'
-              }}
-              options={{
-                chrome: 'noheader',
-                height: '600',
-                width: '100%'
-              }}
-            />
-          </Card>
         </div>
       </main>
     </div>

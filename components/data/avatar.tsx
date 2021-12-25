@@ -3,7 +3,9 @@ import tw from 'twin.macro'
 import { Image } from '../'
 
 type AvatarProperties = React.ComponentProps<typeof Image> & {
-  src: string
+  src: string,
+  width: number,
+  height: number
 }
 
 const Avatar: React.FC<AvatarProperties> = (properties) => (
