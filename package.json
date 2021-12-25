@@ -34,7 +34,7 @@
     "react-helmet": "6.1.0",
     "snarkdown": "2.0.0",
     "unistore": "3.5.2",
-    "workbox-window": "^6.4.2",
+    "workbox-window": "6.4.2",
     "wouter": "2.8.0-alpha.2"
   },
   "devDependencies": {
