@@ -27,7 +27,7 @@ const CardNumber: React.VFC<CardNumberProperties> = ({ number, css, ...rest }) =
     {...rest}
     css={[tw`flex items-center justify-center flex-shrink-0 w-12 h-12 min-h-full p-2 bg-white rounded-full`, css]}
   >
-    <Text tw="text-2xl font-bold">{number}</Text>
+    <Text tw="text-2xl font-bold dark:text-slate-900">{number}</Text>
   </div>
 )
 
