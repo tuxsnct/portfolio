@@ -41,6 +41,7 @@ specifiers:
   vite: 2.7.6
   vite-plugin-pwa: 0.11.12
   wait-on: 6.0.0
+  workbox-window: ^6.4.2
   wouter: 2.8.0-alpha.2
 
 dependencies:
@@ -54,6 +55,7 @@ dependencies:
   react-helmet: 6.1.0_@preact+compat@17.0.3
   snarkdown: 2.0.0
   unistore: 3.5.2_e666cc8912b64376a265187547984e75
+  workbox-window: 6.4.2
   wouter: 2.8.0-alpha.2_@preact+compat@17.0.3
 
 devDependencies:
@@ -2084,7 +2086,6 @@ packages:
 
   /@types/trusted-types/2.0.2:
     resolution: {integrity: sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==}
-    dev: true
 
   /@types/unist/2.0.6:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
@@ -7843,7 +7844,6 @@ packages:
 
   /workbox-core/6.4.2:
     resolution: {integrity: sha512-1U6cdEYPcajRXiboSlpJx6U7TvhIKbxRRerfepAJu2hniKwJ3DHILjpU/zx3yvzSBCWcNJDoFalf7Vgd7ey/rw==}
-    dev: true
 
   /workbox-expiration/6.4.2:
     resolution: {integrity: sha512-0hbpBj0tDnW+DZOUmwZqntB/8xrXOgO34i7s00Si/VlFJvvpRKg1leXdHHU8ykoSBd6+F2KDcMP3swoCi5guLw==}
@@ -7920,7 +7920,6 @@ packages:
     dependencies:
       '@types/trusted-types': 2.0.2
       workbox-core: 6.4.2
-    dev: true
 
   /wouter/2.8.0-alpha.2_@preact+compat@17.0.3:
     resolution: {integrity: sha512-aPsL5m5rW9RiceClOmGj6t5gn9Ut2TJVr98UDi1u9MIRNYiYVflg6vFIjdDYJ4IAyH0JdnkSgGwfo0LQS3k2zg==}
