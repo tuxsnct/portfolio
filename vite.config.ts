@@ -49,7 +49,7 @@ const config: UserConfig = {
         name: 'tuxsnct\'s Website',
         short_name: 'tuxsnct',
         start_url: '/',
-        theme_color: '#f59e9e'
+        theme_color: '#f59e0b'
       },
       registerType: 'autoUpdate',
       workbox: {
