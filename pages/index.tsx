@@ -72,7 +72,7 @@ const HomePage: React.FC = () => (
                   key={index}
                   variant="number"
                   number={index + 1}
-                  title={event.name}
+                  title={`${event.name}（${event.date}）`}
                   withRipple
                 />
               ))

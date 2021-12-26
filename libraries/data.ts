@@ -22,9 +22,9 @@ const projects = [
 ]
 
 const events = [
-  { date: new Date(2020), name: '鈴鹿高専 電子情報工学科 入学' },
-  { date: new Date(2021, 3, 3), name: 'NIT TOBA HACKATHON ZTV賞・FIXER賞 受賞' },
-  { date: new Date(2021, 12, 18), name: 'HackU KOSEN ヤフー賞・Happy Hacking賞 受賞' }
+  { date: '2020', name: '鈴鹿高専 電子情報工学科 入学' },
+  { date: '2021/03/03', name: 'NIT TOBA HACKATHON ZTV賞・FIXER賞 受賞' },
+  { date: '2021/12/18', name: 'HackU KOSEN ヤフー賞・Happy Hacking賞 受賞' }
 ]
 
 const skills = [
