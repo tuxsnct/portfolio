@@ -10,7 +10,7 @@ type AvatarProperties = React.ComponentProps<typeof Image> & {
 }
 
 const Avatar: React.FC<AvatarProperties> = (properties) => (
-  <Image tw="rounded-full" {...properties} />
+  <Image tw="flex-grow-0 rounded-full" {...properties} />
 )
 
 export {
