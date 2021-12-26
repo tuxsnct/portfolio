@@ -6,7 +6,7 @@ import { ReactComponent as Terms } from '../terms.md'
 
 const TermsPage: React.FC = () => (
   <DocumentLayout title="Terms">
-    <Text tw="prose">
+    <Text tw="prose-lg">
       <Terms />
     </Text>
   </DocumentLayout>

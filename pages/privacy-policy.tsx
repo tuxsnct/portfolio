@@ -6,7 +6,7 @@ import { ReactComponent as PrivacyPolicy } from '../privacy-policy.md'
 
 const PrivacyPolicyPage: React.FC = () => (
   <DocumentLayout title="Privacy Policy">
-    <Text tw="prose">
+    <Text tw="prose-lg">
       <PrivacyPolicy />
     </Text>
   </DocumentLayout>
