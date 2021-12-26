@@ -1,13 +1,14 @@
 import React from 'react'
 import tw from 'twin.macro'
-import { Heading } from '../components'
+import { Text } from '../components'
 import { DocumentLayout } from '../layouts'
+import { ReactComponent as Terms } from '../terms.md'
 
 const TermsPage: React.FC = () => (
   <DocumentLayout title="Terms">
-    <div tw="flex flex-col">
-      <Heading>Terms</Heading>
-    </div>
+    <Text tw="prose">
+      <Terms />
+    </Text>
   </DocumentLayout>
 )
 

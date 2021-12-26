@@ -17,7 +17,9 @@ const DocumentLayout: React.FC<DocumentLayoutProperties> = ({ children, ...rest 
             Back
           </Button>
         </nav>
-        {children}
+        <div tw="flex flex-col items-center">
+          {children}
+        </div>
       </div>
     </BaseLayout>
   )
