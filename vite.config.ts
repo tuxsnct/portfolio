@@ -1,5 +1,6 @@
 import reactPlugin from '@vitejs/plugin-react'
 import { UserConfig } from 'vite'
+import mdPlugin, { Mode } from 'vite-plugin-markdown'
 import { VitePWA as vitePwaPlugin } from 'vite-plugin-pwa'
 
 const config: UserConfig = {
@@ -23,6 +24,9 @@ const config: UserConfig = {
           ]
         ]
       }
+    }),
+    mdPlugin({
+      mode: [Mode.REACT]
     }),
     vitePwaPlugin({
       manifest: {

@@ -26,6 +26,9 @@ type ButtonVariantProperties = {
   onClose?: never,
   iconStyles?: never,
   src?: never,
+  width?: never,
+  height?: never,
+  alt?: never,
   avatarStyles?: never
 } | {
   variant: 'icon',
@@ -34,6 +37,9 @@ type ButtonVariantProperties = {
   onClose?: never,
   iconStyles?: CSSInterpolation,
   src?: never,
+  width?: never,
+  height?: never,
+  alt?: never,
   avatarStyles?: never
 } | {
   variant: 'icon',
@@ -42,6 +48,9 @@ type ButtonVariantProperties = {
   onClose?: never,
   iconStyles?: CSSInterpolation,
   src?: never,
+  width?: never,
+  height?: never,
+  alt?: never,
   avatarStyles?: never
 } | {
   variant: 'close',
@@ -50,6 +59,9 @@ type ButtonVariantProperties = {
   onClose?: React.MouseEventHandler
   iconStyles?: never,
   src?: never,
+  width?: never,
+  height?: never,
+  alt?: never,
   avatarStyles?: never
 } | {
   variant: 'avatar',
@@ -58,6 +70,9 @@ type ButtonVariantProperties = {
   onClose?: never
   iconStyles?: never,
   src: string,
+  width: number,
+  height: number,
+  alt: string,
   avatarStyles?: CSSInterpolation
 }
 
@@ -79,6 +94,9 @@ const Button = <T extends AnyComponent>({
   onClose,
   iconStyles,
   src,
+  width,
+  height,
+  alt,
   avatarStyles,
   boxStyles,
   textStyles,
@@ -86,7 +104,10 @@ const Button = <T extends AnyComponent>({
 }: ButtonProperties<T>): JSX.Element => (
     <ButtonBox css={boxStyles} {...rest}>
       {leftIcon && <ButtonIcon icon={leftIcon} css={iconStyles} />}
-      {src && <Avatar src={src} css={avatarStyles} />}
+      {
+        (src && width && height && alt) &&
+        <Avatar src={src} width={width} height={height} alt={alt} css={avatarStyles} />
+      }
       {
         children &&
         <Text css={[tw`text-sm font-bold dark:text-slate-900 whitespace-nowrap`, textStyles]}>{children}</Text>
