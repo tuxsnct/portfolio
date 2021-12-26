@@ -1,10 +1,9 @@
 import React from 'react'
 import tw, { GlobalStyles } from 'twin.macro'
 import { Provider } from 'unistore/react'
-// eslint-disable-next-line import/no-unresolved
 import { Route, Switch } from 'wouter'
 import { store } from '../libraries'
-import { HomePage, NotFoundPage } from '../pages'
+import { HomePage, NotFoundPage, PrivacyPolicyPage, TermsPage } from '../pages'
 
 const App: React.FC = () => (
   <>
@@ -12,6 +11,8 @@ const App: React.FC = () => (
     <Provider store={store}>
       <Switch>
         <Route path="/" component={HomePage} />
+        <Route path="/terms" component={TermsPage} />
+        <Route path="/privacy-policy" component={PrivacyPolicyPage} />
         <Route component={NotFoundPage} />
       </Switch>
     </Provider>

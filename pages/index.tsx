@@ -101,3 +101,5 @@ export {
 }
 
 export * from './404'
+export * from './privacy-policy'
+export * from './terms'
