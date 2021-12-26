@@ -4,7 +4,7 @@ import { Avatar, Heading } from '../components'
 import { BaseLayout } from '../layouts'
 
 const NotFoundPage: React.FC = () => (
-  <BaseLayout title="Not Found.">
+  <BaseLayout title="Not Found">
     <div tw="w-full h-screen flex items-center justify-center p-12 gap-12 lg:(p-24 gap-24)">
       <div tw="flex gap-8 flex-col items-center">
         <Avatar
