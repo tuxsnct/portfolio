@@ -3,7 +3,7 @@ const description = 'フロントエンドをそこそこ（?）、バックエ�
 const links = [
   { icon: 'logos:github-icon', name: 'GitHub', url: 'https://github.com/tuxsnct' },
   { icon: 'logos:gitlab', name: 'GitLab', url: 'https://gitlab.com/tuxsnct' },
-  { icon: 'simple-icons:gitea', name: 'GitLab', url: 'https://git.tuxsnct.com/tuxsnct' },
+  { icon: 'simple-icons:gitea', name: 'Gitea', url: 'https://git.tuxsnct.com/tuxsnct' },
   { icon: 'fa-brands:keybase', name: 'Keybase', url: 'https://keybase.io/tuxsnct' },
   { icon: 'logos:twitter', name: 'Twitter', url: 'https://twitter.com/tuxsnct' },
   { icon: 'logos:discord-icon', name: 'Discord', url: 'https://discord.com/users/718433564034727976' },
