@@ -17,7 +17,7 @@ specifiers:
   '@types/react-dom': 17.0.11
   '@types/react-helmet': 6.1.5
   '@vitejs/plugin-react': 1.1.3
-  autoprefixer: 10.4.0
+  autoprefixer: 10.4.1
   babel-plugin-macros: 3.1.0
   chokidar-cli: 3.0.0
   cross-env: 7.0.3
@@ -73,7 +73,7 @@ devDependencies:
   '@types/react-dom': 17.0.11
   '@types/react-helmet': 6.1.5
   '@vitejs/plugin-react': 1.1.3
-  autoprefixer: 10.4.0_postcss@8.4.5
+  autoprefixer: 10.4.1_postcss@8.4.5
   babel-plugin-macros: 3.1.0
   chokidar-cli: 3.0.0
   cross-env: 7.0.3
@@ -85,7 +85,7 @@ devDependencies:
   npm-run-all: 4.1.5
   postcss: 8.4.5
   rimraf: 3.0.2
-  tailwindcss: 2.2.19_16a290f6d0e3717bf6d2667234aebd30
+  tailwindcss: 2.2.19_cefe482e8d38053bbf3d5815e0c551b3
   tailwindcss-ripple: 0.7.1
   twin.macro: 2.8.2
   typescript: 4.5.4
@@ -1963,7 +1963,7 @@ packages:
     peerDependencies:
       tailwindcss: '>=2.0.0 || >=3.0.0-alpha.1'
     dependencies:
-      tailwindcss: 2.2.19_16a290f6d0e3717bf6d2667234aebd30
+      tailwindcss: 2.2.19_cefe482e8d38053bbf3d5815e0c551b3
     dev: true
 
   /@tailwindcss/line-clamp/0.2.2_tailwindcss@2.2.19:
@@ -1971,7 +1971,7 @@ packages:
     peerDependencies:
       tailwindcss: '>=2.0.0 || >=3.0.0-alpha.1'
     dependencies:
-      tailwindcss: 2.2.19_16a290f6d0e3717bf6d2667234aebd30
+      tailwindcss: 2.2.19_cefe482e8d38053bbf3d5815e0c551b3
     dev: true
 
   /@tailwindcss/typography/0.4.1_tailwindcss@2.2.19:
@@ -1983,7 +1983,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
-      tailwindcss: 2.2.19_16a290f6d0e3717bf6d2667234aebd30
+      tailwindcss: 2.2.19_cefe482e8d38053bbf3d5815e0c551b3
     dev: true
 
   /@tootallnate/once/1.1.2:
@@ -2492,15 +2492,15 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: true
 
-  /autoprefixer/10.4.0_postcss@8.4.5:
-    resolution: {integrity: sha512-7FdJ1ONtwzV1G43GDD0kpVMn/qbiNqyOPMFTX5nRffI+7vgWoFEc6DcXOxHJxrWNDXrZh18eDsZjvZGUljSRGA==}
+  /autoprefixer/10.4.1_postcss@8.4.5:
+    resolution: {integrity: sha512-B3ZEG7wtzXDRCEFsan7HmR2AeNsxdJB0+sEC0Hc5/c2NbhJqPwuZm+tn233GBVw82L+6CtD6IPSfVruwKjfV3A==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.19.1
-      caniuse-lite: 1.0.30001292
+      caniuse-lite: 1.0.30001294
       fraction.js: 4.1.2
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -2692,7 +2692,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001292
+      caniuse-lite: 1.0.30001294
       electron-to-chromium: 1.4.28
       escalade: 3.1.1
       node-releases: 2.0.1
@@ -2745,8 +2745,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001292:
-    resolution: {integrity: sha512-jnT4Tq0Q4ma+6nncYQVe7d73kmDmE9C3OGTx3MvW7lBM/eY1S1DZTMBON7dqV481RhNiS5OxD7k9JQvmDOTirw==}
+  /caniuse-lite/1.0.30001294:
+    resolution: {integrity: sha512-LiMlrs1nSKZ8qkNhpUf5KD0Al1KCBE3zaT7OLOwEkagXMEDij98SiOovn9wxVGQpklk9vVC/pUSqgYmkmKOS8g==}
     dev: true
 
   /ccount/1.1.0:
@@ -3646,7 +3646,7 @@ packages:
       '@mdn/browser-compat-data': 3.3.14
       ast-metadata-inferer: 0.7.0
       browserslist: 4.19.1
-      caniuse-lite: 1.0.30001292
+      caniuse-lite: 1.0.30001294
       core-js: 3.20.1
       eslint: 8.5.0
       find-up: 5.0.0
@@ -7270,7 +7270,7 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /tailwindcss/2.2.19_16a290f6d0e3717bf6d2667234aebd30:
+  /tailwindcss/2.2.19_cefe482e8d38053bbf3d5815e0c551b3:
     resolution: {integrity: sha512-6Ui7JSVtXadtTUo2NtkBBacobzWiQYVjYW0ZnKaP9S1ZCKQ0w7KVNz+YSDI/j7O7KCMHbOkz94ZMQhbT9pOqjw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -7279,7 +7279,7 @@ packages:
       postcss: ^8.0.9
     dependencies:
       arg: 5.0.1
-      autoprefixer: 10.4.0_postcss@8.4.5
+      autoprefixer: 10.4.1_postcss@8.4.5
       bytes: 3.1.1
       chalk: 4.1.2
       chokidar: 3.5.2
@@ -7479,7 +7479,7 @@ packages:
     dependencies:
       '@babel/parser': 7.16.6
       '@babel/template': 7.16.0
-      autoprefixer: 10.4.0_postcss@8.4.5
+      autoprefixer: 10.4.1_postcss@8.4.5
       babel-plugin-macros: 2.8.0
       chalk: 4.1.2
       clean-set: 1.1.2
@@ -7490,7 +7490,7 @@ packages:
       lodash.merge: 4.6.2
       postcss: 8.4.5
       string-similarity: 4.0.4
-      tailwindcss: 2.2.19_16a290f6d0e3717bf6d2667234aebd30
+      tailwindcss: 2.2.19_cefe482e8d38053bbf3d5815e0c551b3
       timsort: 0.3.0
     transitivePeerDependencies:
       - ts-node
