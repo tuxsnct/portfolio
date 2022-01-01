@@ -39,8 +39,8 @@
     "wouter": "2.8.0-alpha.2"
   },
   "devDependencies": {
-    "@babel/core": "7.16.5",
-    "@babel/preset-react": "7.16.5",
+    "@babel/core": "7.16.7",
+    "@babel/preset-react": "7.16.7",
     "@emotion/babel-plugin": "11.7.2",
     "@emotion/babel-plugin-jsx-pragmatic": "0.1.5",
     "@emotion/serialize": "1.0.2",
