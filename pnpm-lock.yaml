@@ -24,7 +24,7 @@ specifiers:
   eslint: 8.6.0
   eslint-config-tuxsnct: latest
   husky: 7.0.4
-  lint-staged: 12.1.4
+  lint-staged: 12.1.5
   mkdirp: 1.0.4
   npm-run-all: 4.1.5
   postcss: 8.4.5
@@ -80,7 +80,7 @@ devDependencies:
   eslint: 8.6.0
   eslint-config-tuxsnct: 4.0.0_eslint@8.6.0
   husky: 7.0.4
-  lint-staged: 12.1.4
+  lint-staged: 12.1.5
   mkdirp: 1.0.4
   npm-run-all: 4.1.5
   postcss: 8.4.5
@@ -5719,8 +5719,8 @@ packages:
       uc.micro: 1.0.6
     dev: true
 
-  /lint-staged/12.1.4:
-    resolution: {integrity: sha512-RgDz9nsFsE0/5eL9Vat0AvCuk0+j5mEuzBIVfrRH5FRtt5wibYe8zTjZs2nuqLFrLAGQGYnj8+HJxolcj08i/A==}
+  /lint-staged/12.1.5:
+    resolution: {integrity: sha512-WyKb+0sNKDTd1LwwAfTBPp0XmdaKkAOEbg4oHE4Kq2+oQVchg/VAcjVQtSqZih1izNsTURjc2EkhG/syRQUXdA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
