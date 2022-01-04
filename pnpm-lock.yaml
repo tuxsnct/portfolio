@@ -16,7 +16,7 @@ specifiers:
   '@types/react': 17.0.38
   '@types/react-dom': 17.0.11
   '@types/react-helmet': 6.1.5
-  '@vitejs/plugin-react': 1.1.3
+  '@vitejs/plugin-react': 1.1.4
   autoprefixer: 10.4.1
   babel-plugin-macros: 3.1.0
   chokidar-cli: 3.0.0
@@ -72,7 +72,7 @@ devDependencies:
   '@types/react': 17.0.38
   '@types/react-dom': 17.0.11
   '@types/react-helmet': 6.1.5
-  '@vitejs/plugin-react': 1.1.3
+  '@vitejs/plugin-react': 1.1.4
   autoprefixer: 10.4.1_postcss@8.4.5
   babel-plugin-macros: 3.1.0
   chokidar-cli: 3.0.0
@@ -187,13 +187,6 @@ packages:
       '@babel/types': 7.16.7
       jsesc: 2.5.2
       source-map: 0.5.7
-    dev: true
-
-  /@babel/helper-annotate-as-pure/7.16.0:
-    resolution: {integrity: sha512-ItmYF9vR4zA8cByDocY05o0LGUkp1zhbTQOH1NFyl5xXEqlTJQCEJjieriw+aFpxo16swMxUnUiKS7a/r4vtHg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/types': 7.16.7
     dev: true
 
   /@babel/helper-annotate-as-pure/7.16.7:
@@ -1157,16 +1150,6 @@ packages:
       '@babel/helper-plugin-utils': 7.16.7
     dev: true
 
-  /@babel/plugin-transform-react-jsx-development/7.16.5_@babel+core@7.16.7:
-    resolution: {integrity: sha512-uQSLacMZSGLCxOw20dzo1dmLlKkd+DsayoV54q3MHXhbqgPzoiGerZQgNPl/Ro8/OcXV2ugfnkx+rxdS0sN5Uw==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.16.7
-      '@babel/plugin-transform-react-jsx': 7.16.7_@babel+core@7.16.7
-    dev: true
-
   /@babel/plugin-transform-react-jsx-development/7.16.7_@babel+core@7.16.7:
     resolution: {integrity: sha512-RMvQWvpla+xy6MlBpPlrKZCMRs2AGiHOGHY3xRwl0pEeim348dDyxeH4xBsMPbIMhujeq7ihE702eM2Ew0Wo+A==}
     engines: {node: '>=6.9.0'}
@@ -1195,20 +1178,6 @@ packages:
     dependencies:
       '@babel/core': 7.16.7
       '@babel/helper-plugin-utils': 7.16.7
-    dev: true
-
-  /@babel/plugin-transform-react-jsx/7.16.5_@babel+core@7.16.7:
-    resolution: {integrity: sha512-+arLIz1d7kmwX0fKxTxbnoeG85ONSnLpvdODa4P3pc1sS7CV1hfmtYWufkW/oYsPnkDrEeQFxhUWcFnrXW7jQQ==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.16.7
-      '@babel/helper-annotate-as-pure': 7.16.0
-      '@babel/helper-module-imports': 7.16.0
-      '@babel/helper-plugin-utils': 7.16.7
-      '@babel/plugin-syntax-jsx': 7.16.5_@babel+core@7.16.7
-      '@babel/types': 7.16.7
     dev: true
 
   /@babel/plugin-transform-react-jsx/7.16.7_@babel+core@7.16.7:
@@ -2322,13 +2291,13 @@ packages:
       eslint-visitor-keys: 3.1.0
     dev: true
 
-  /@vitejs/plugin-react/1.1.3:
-    resolution: {integrity: sha512-xv8QujX/uR4ti8qpt0hMriM2bdpxX4jm4iU6GAZfCwHjh/ewkX/8DJgnmQpE0HSJmgz8dixyUnRJKi2Pf1nNoQ==}
+  /@vitejs/plugin-react/1.1.4:
+    resolution: {integrity: sha512-cMUBDonNY8PPeHWjIrYKbRn6bLSunh/Ixo2XLLBd3DM0uYBZft+c+04zkGhhN1lAwvoRKJ2FdtvhGhPgViHc6w==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@babel/core': 7.16.7
-      '@babel/plugin-transform-react-jsx': 7.16.5_@babel+core@7.16.7
-      '@babel/plugin-transform-react-jsx-development': 7.16.5_@babel+core@7.16.7
+      '@babel/plugin-transform-react-jsx': 7.16.7_@babel+core@7.16.7
+      '@babel/plugin-transform-react-jsx-development': 7.16.7_@babel+core@7.16.7
       '@babel/plugin-transform-react-jsx-self': 7.16.5_@babel+core@7.16.7
       '@babel/plugin-transform-react-jsx-source': 7.16.5_@babel+core@7.16.7
       '@rollup/pluginutils': 4.1.2
