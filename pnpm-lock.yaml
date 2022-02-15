@@ -28,7 +28,7 @@ specifiers:
   mkdirp: 1.0.4
   npm-run-all: 4.1.5
   postcss: 8.4.6
-  preact: 10.6.4
+  preact: 10.6.6
   react: npm:@preact/compat@17.0.3
   react-dom: npm:@preact/compat@17.0.3
   react-helmet: 6.1.0
@@ -51,12 +51,12 @@ dependencies:
   '@emotion/styled': 11.6.0_fbaab0716fcec5ecfe4a84a3c2c7c7f3
   '@fontsource/inter': 4.5.4
   '@iconify/react': 3.1.3
-  preact: 10.6.4
-  react: /@preact/compat/17.0.3_preact@10.6.4
-  react-dom: /@preact/compat/17.0.3_preact@10.6.4
+  preact: 10.6.6
+  react: /@preact/compat/17.0.3_preact@10.6.6
+  react-dom: /@preact/compat/17.0.3_preact@10.6.6
   react-helmet: 6.1.0_@preact+compat@17.0.3
   snarkdown: 2.0.0
-  unistore: 3.5.2_e666cc8912b64376a265187547984e75
+  unistore: 3.5.2_b535e7977f8540c678e92cb62c5de80c
   workbox-window: 6.4.2
   wouter: 2.8.0-alpha.2_@preact+compat@17.0.3
 
@@ -1554,7 +1554,7 @@ packages:
       '@emotion/weak-memoize': 0.2.5
       '@types/react': 17.0.39
       hoist-non-react-statics: 3.3.2
-      react: /@preact/compat/17.0.3_preact@10.6.4
+      react: /@preact/compat/17.0.3_preact@10.6.6
     dev: false
 
   /@emotion/serialize/1.0.2:
@@ -1591,7 +1591,7 @@ packages:
       '@emotion/serialize': 1.0.2
       '@emotion/utils': 1.0.0
       '@types/react': 17.0.39
-      react: /@preact/compat/17.0.3_preact@10.6.4
+      react: /@preact/compat/17.0.3_preact@10.6.6
     dev: false
 
   /@emotion/unitless/0.7.5:
@@ -1910,12 +1910,12 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@preact/compat/17.0.3_preact@10.6.4:
+  /@preact/compat/17.0.3_preact@10.6.6:
     resolution: {integrity: sha512-lzkui97aQ00hxzUwfRfZm7jUXE1bjWyOXiqm8DeWYhkD+G9ZaY1wso/itqyg60wGnP9DRlM4PDn2blIOnh1yeg==}
     peerDependencies:
       preact: '*'
     dependencies:
-      preact: 10.6.4
+      preact: 10.6.6
     dev: false
 
   /@rollup/plugin-babel/5.3.0_@babel+core@7.17.2+rollup@2.62.0:
@@ -6473,8 +6473,8 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /preact/10.6.4:
-    resolution: {integrity: sha512-WyosM7pxGcndU8hY0OQlLd54tOU+qmG45QXj2dAYrL11HoyU/EzOSTlpJsirbBr1QW7lICxSsVJJmcmUglovHQ==}
+  /preact/10.6.6:
+    resolution: {integrity: sha512-dgxpTFV2vs4vizwKohYKkk7g7rmp1wOOcfd4Tz3IB3Wi+ivZzsn/SpeKJhRENSE+n8sUfsAl4S3HiCVT923ABw==}
     dev: false
 
   /prelude-ls/1.1.2:
@@ -6567,7 +6567,7 @@ packages:
     dependencies:
       object-assign: 4.1.1
       prop-types: 15.8.0
-      react: /@preact/compat/17.0.3_preact@10.6.4
+      react: /@preact/compat/17.0.3_preact@10.6.6
       react-fast-compare: 3.2.0
       react-side-effect: 2.1.1_@preact+compat@17.0.3
     dev: false
@@ -6589,7 +6589,7 @@ packages:
     peerDependencies:
       react: ^16.3.0 || ^17.0.0
     dependencies:
-      react: /@preact/compat/17.0.3_preact@10.6.4
+      react: /@preact/compat/17.0.3_preact@10.6.6
     dev: false
 
   /read-pkg-up/7.0.1:
@@ -7763,7 +7763,7 @@ packages:
       unist-util-visit-parents: 3.1.1
     dev: true
 
-  /unistore/3.5.2_e666cc8912b64376a265187547984e75:
+  /unistore/3.5.2_b535e7977f8540c678e92cb62c5de80c:
     resolution: {integrity: sha512-2Aa4eX0Ua1umyiI3Eai6Li+wXYOHgaDBGOPB3Hvw7PAVuD30TAyh5kS4yNKb2fLDbQgizvPhKQRcYnOdfsm4VQ==}
     peerDependencies:
       preact: '*'
@@ -7774,8 +7774,8 @@ packages:
       react:
         optional: true
     dependencies:
-      preact: 10.6.4
-      react: /@preact/compat/17.0.3_preact@10.6.4
+      preact: 10.6.6
+      react: /@preact/compat/17.0.3_preact@10.6.6
     dev: false
 
   /universalify/0.1.2:
@@ -8171,7 +8171,7 @@ packages:
     peerDependencies:
       react: '>=16.8.0'
     dependencies:
-      react: /@preact/compat/17.0.3_preact@10.6.4
+      react: /@preact/compat/17.0.3_preact@10.6.6
     dev: false
 
   /wrap-ansi/5.1.0:
