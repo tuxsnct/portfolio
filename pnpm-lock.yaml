@@ -41,7 +41,7 @@ specifiers:
   unistore: 3.5.2
   vite: 2.7.10
   vite-plugin-markdown: 2.0.2
-  vite-plugin-pwa: 0.11.12
+  vite-plugin-pwa: 0.11.13
   wait-on: 6.0.0
   workbox-window: 6.4.2
   wouter: 2.8.0-alpha.2
@@ -91,7 +91,7 @@ devDependencies:
   typescript: 4.5.4
   vite: 2.7.10
   vite-plugin-markdown: 2.0.2_vite@2.7.10
-  vite-plugin-pwa: 0.11.12_vite@2.7.10
+  vite-plugin-pwa: 0.11.13_vite@2.7.10
   wait-on: 6.0.0
 
 packages:
@@ -7030,6 +7030,7 @@ packages:
 
   /source-map-url/0.4.1:
     resolution: {integrity: sha512-cPiFOTLUKvJFIg4SKVScy4ilPPW6rFgMgfuZJPNoDuMs3nC1HbMUycBoJw77xFIp6z1UJQJOfx6C9GMH80DiTw==}
+    deprecated: See https://github.com/lydell/source-map-url#deprecated
     dev: true
 
   /source-map/0.5.7:
@@ -7784,8 +7785,8 @@ packages:
       vite: 2.7.10
     dev: true
 
-  /vite-plugin-pwa/0.11.12_vite@2.7.10:
-    resolution: {integrity: sha512-XqFmA4y9C4RBb5osSsa26GVwOSwbzf2GNVcT5+06KYYdguqLpuI9FW7iV/akZqg0OUNUpH4tHfme8SnHA4PIXA==}
+  /vite-plugin-pwa/0.11.13_vite@2.7.10:
+    resolution: {integrity: sha512-Ssj14m3TRVLfkFEAWSMcFE2d1cSdEZyrVTzfY2lSL+umHYvcIFHVDAY143sygtBCb44OPczsAOmWwBTxwOvh7g==}
     peerDependencies:
       vite: ^2.0.0
     dependencies:
