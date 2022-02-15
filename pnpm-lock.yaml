@@ -16,7 +16,7 @@ specifiers:
   '@types/react': 17.0.39
   '@types/react-dom': 17.0.11
   '@types/react-helmet': 6.1.5
-  '@vitejs/plugin-react': 1.1.4
+  '@vitejs/plugin-react': 1.2.0
   autoprefixer: 10.4.2
   babel-plugin-macros: 3.1.0
   chokidar-cli: 3.0.0
@@ -72,7 +72,7 @@ devDependencies:
   '@types/react': 17.0.39
   '@types/react-dom': 17.0.11
   '@types/react-helmet': 6.1.5
-  '@vitejs/plugin-react': 1.1.4
+  '@vitejs/plugin-react': 1.2.0
   autoprefixer: 10.4.2_postcss@8.4.6
   babel-plugin-macros: 3.1.0
   chokidar-cli: 3.0.0
@@ -1163,8 +1163,8 @@ packages:
       '@babel/plugin-transform-react-jsx': 7.16.7_@babel+core@7.17.2
     dev: true
 
-  /@babel/plugin-transform-react-jsx-self/7.16.5_@babel+core@7.17.2:
-    resolution: {integrity: sha512-fvwq+jir1Vn4f5oBS0H/J/gD5CneTD53MHs+NMjlHcha4Sq35fwxI5RtmJGEBXO+M93f/eeD9cAhRPhmLyJiVw==}
+  /@babel/plugin-transform-react-jsx-self/7.16.7_@babel+core@7.17.2:
+    resolution: {integrity: sha512-oe5VuWs7J9ilH3BCCApGoYjHoSO48vkjX2CbA5bFVhIuO2HKxA3vyF7rleA4o6/4rTDbk6r8hBW7Ul8E+UZrpA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1173,8 +1173,8 @@ packages:
       '@babel/helper-plugin-utils': 7.16.7
     dev: true
 
-  /@babel/plugin-transform-react-jsx-source/7.16.5_@babel+core@7.17.2:
-    resolution: {integrity: sha512-/eP+nZywJntGLjSPjksAnM9/ELIs3RbiEuTu2/zAOzwwBcfiu+m/iptEq1lERUUtSXubYSHVnVHMr13GR+TwPw==}
+  /@babel/plugin-transform-react-jsx-source/7.16.7_@babel+core@7.17.2:
+    resolution: {integrity: sha512-rONFiQz9vgbsnaMtQlZCjIRwhJvlrPET8TabIUK2hzlXw9B9s2Ieaxte1SCOOXMbWRHodbKixNf3BLcWVOQ8Bw==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -2303,18 +2303,18 @@ packages:
       eslint-visitor-keys: 3.2.0
     dev: true
 
-  /@vitejs/plugin-react/1.1.4:
-    resolution: {integrity: sha512-cMUBDonNY8PPeHWjIrYKbRn6bLSunh/Ixo2XLLBd3DM0uYBZft+c+04zkGhhN1lAwvoRKJ2FdtvhGhPgViHc6w==}
+  /@vitejs/plugin-react/1.2.0:
+    resolution: {integrity: sha512-Rywwt0IXXg6yQ0hv3cMT3mtdDcGIw31mGaa+MMMAT651LhoXLF2yFy4LrakiTs7UKs7RPBo9eNgaS8pgl2A6Qw==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@babel/core': 7.17.2
       '@babel/plugin-transform-react-jsx': 7.16.7_@babel+core@7.17.2
       '@babel/plugin-transform-react-jsx-development': 7.16.7_@babel+core@7.17.2
-      '@babel/plugin-transform-react-jsx-self': 7.16.5_@babel+core@7.17.2
-      '@babel/plugin-transform-react-jsx-source': 7.16.5_@babel+core@7.17.2
+      '@babel/plugin-transform-react-jsx-self': 7.16.7_@babel+core@7.17.2
+      '@babel/plugin-transform-react-jsx-source': 7.16.7_@babel+core@7.17.2
       '@rollup/pluginutils': 4.1.2
       react-refresh: 0.11.0
-      resolve: 1.20.0
+      resolve: 1.22.0
     transitivePeerDependencies:
       - supports-color
     dev: true
