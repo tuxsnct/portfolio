@@ -55,7 +55,7 @@
     "babel-plugin-macros": "3.1.0",
     "chokidar-cli": "3.0.0",
     "cross-env": "7.0.3",
-    "eslint": "8.7.0",
+    "eslint": "8.9.0",
     "eslint-config-tuxsnct": "latest",
     "husky": "7.0.4",
     "lint-staged": "12.3.4",
