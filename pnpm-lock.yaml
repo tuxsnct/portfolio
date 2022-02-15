@@ -42,7 +42,7 @@ specifiers:
   vite: 2.8.2
   vite-plugin-markdown: 2.0.2
   vite-plugin-pwa: 0.11.13
-  wait-on: 6.0.0
+  wait-on: 6.0.1
   workbox-window: 6.4.2
   wouter: 2.8.0-alpha.2
 
@@ -92,7 +92,7 @@ devDependencies:
   vite: 2.8.2
   vite-plugin-markdown: 2.0.2_vite@2.8.2
   vite-plugin-pwa: 0.11.13_vite@2.8.2
-  wait-on: 6.0.0
+  wait-on: 6.0.1
 
 packages:
 
@@ -2564,10 +2564,10 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /axios/0.21.4:
-    resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
+  /axios/0.25.0:
+    resolution: {integrity: sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==}
     dependencies:
-      follow-redirects: 1.14.6
+      follow-redirects: 1.14.8
     transitivePeerDependencies:
       - debug
     dev: true
@@ -4350,8 +4350,8 @@ packages:
     resolution: {integrity: sha512-8/sOawo8tJ4QOBX8YlQBMxL8+RLZfxMQOif9o0KUKTNTjMYElWPE0r/m5VNFxTRd0NSw8qSy8dajrwX4RYI1Hw==}
     dev: true
 
-  /follow-redirects/1.14.6:
-    resolution: {integrity: sha512-fhUl5EwSJbbl8AR+uYL2KQDxLkdSjZGR36xy46AO7cOMTrCMON6Sa28FmAnC2tRTDbd/Uuzz3aJBv7EBN7JH8A==}
+  /follow-redirects/1.14.8:
+    resolution: {integrity: sha512-1x0S9UVJHsQprFcEC/qnNzBLcIxsjAV905f/UkQxbclCsoTWlacCNOpQa/anodLl2uaEKFhfWOvM2Qg77+15zA==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -5500,8 +5500,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /joi/17.5.0:
-    resolution: {integrity: sha512-R7hR50COp7StzLnDi4ywOXHrBrgNXuUUfJWIR5lPY5Bm/pOD3jZaTwpluUXVLRWcoWZxkrHBBJ5hLxgnlehbdw==}
+  /joi/17.6.0:
+    resolution: {integrity: sha512-OX5dG6DTbcr/kbMFj0KGYxuew69HPcAE3K/sZpEV2nP6e/j/C0HV+HNiBPCASxdx5T7DMoa0s8UeHWMnb6n2zw==}
     dependencies:
       '@hapi/hoek': 9.2.1
       '@hapi/topo': 5.1.0
@@ -6897,12 +6897,6 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /rxjs/7.4.0:
-    resolution: {integrity: sha512-7SQDi7xeTMCJpqViXh8gL/lebcwlp3d831F05+9B44A4B0WfsEwUQHR64gsH1kvJ+Ep/J9K2+n1hVl1CsGN23w==}
-    dependencies:
-      tslib: 2.1.0
-    dev: true
-
   /rxjs/7.5.4:
     resolution: {integrity: sha512-h5M3Hk78r6wAheJF0a5YahB1yRQKCsZ4MsGdZ5O9ETbVtjPcScGfrMmoOq7EBsCRzd4BDkvDJ7ogP8Sz5tTFiQ==}
     dependencies:
@@ -7558,10 +7552,6 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib/2.1.0:
-    resolution: {integrity: sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==}
-    dev: true
-
   /tslib/2.3.1:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
@@ -7909,16 +7899,16 @@ packages:
       xml-name-validator: 3.0.0
     dev: true
 
-  /wait-on/6.0.0:
-    resolution: {integrity: sha512-tnUJr9p5r+bEYXPUdRseolmz5XqJTTj98JgOsfBn7Oz2dxfE2g3zw1jE+Mo8lopM3j3et/Mq1yW7kKX6qw7RVw==}
+  /wait-on/6.0.1:
+    resolution: {integrity: sha512-zht+KASY3usTY5u2LgaNqn/Cd8MukxLGjdcZxT2ns5QzDmTFc4XoWBgC+C/na+sMRZTuVygQoMYwdcVjHnYIVw==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
-      axios: 0.21.4
-      joi: 17.5.0
+      axios: 0.25.0
+      joi: 17.6.0
       lodash: 4.17.21
       minimist: 1.2.5
-      rxjs: 7.4.0
+      rxjs: 7.5.4
     transitivePeerDependencies:
       - debug
     dev: true
