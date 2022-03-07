@@ -48,7 +48,7 @@
     "@tailwindcss/line-clamp": "0.3.1",
     "@tailwindcss/typography": "0.5.2",
     "@types/react": "17.0.39",
-    "@types/react-dom": "17.0.11",
+    "@types/react-dom": "17.0.13",
     "@types/react-helmet": "6.1.5",
     "@vitejs/plugin-react": "1.2.0",
     "autoprefixer": "10.4.2",
